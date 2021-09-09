@@ -89,3 +89,11 @@ rtps:
     send:    true
   - msg:     sensor_combined
     send:    true
+  - msg:     vehicle_gps_position
+    send:    true
+  - msg:     vehicle_global_position
+    send:    true
+  - msg:     vehicle_attitude
+    send:    true
+  - msg:     vehicle_attitude_setpoint
+    receive:    true
