@@ -97,3 +97,8 @@ rtps:
     send:    true
   - msg:     vehicle_attitude_setpoint
     receive:    true
+  - msg:     manual_control_setpoint
+    receive:    true
+  - msg:     manual_control_switches
+    receive:    true
+    send:    true
